@@ -1,4 +1,5 @@
 const inputEl = document.getElementById("container")
+const convertBtn = document.getElementById("convert-btn")
 const input1 = document.getElementById("user-input")
 const input2 = document.getElementById("user-input2")
 const input3 = document.getElementById("user-input3")
@@ -13,7 +14,7 @@ const poundsEl = document.getElementById("pounds-result")
 const kilosEl = document.getElementById("kilos-result")
 
 
-inputEl.addEventListener("input", function() {
+convertBtn.addEventListener("click", function() {
   if (inputEl.value != 0) {
     input1.textContent = inputEl.value
     input2.textContent = inputEl.value

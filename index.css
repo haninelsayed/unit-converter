@@ -43,7 +43,7 @@ header p {
   color: white;
 }
 
-/* #convert-btn {
+#convert-btn {
   background-color: white;
   border: none;
   padding: 10px 30px;
@@ -52,7 +52,7 @@ header p {
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
-} */
+}
 
 main {
   background-color: #273549;
